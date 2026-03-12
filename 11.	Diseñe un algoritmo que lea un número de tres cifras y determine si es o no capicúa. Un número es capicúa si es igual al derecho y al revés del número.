@@ -1,0 +1,9 @@
+numero = int(input("Ingrese un número de tres cifras: "))
+
+# Convertir número a texto para invertirlo
+texto = str(numero)
+
+if texto == texto[::-1]:
+    print("El número es capicúa")
+else:
+    print("El número no es capicúa")
