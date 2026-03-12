@@ -1,0 +1,10 @@
+nota = int(input("Ingrese una nota entre 0 y 10: "))
+
+notas = ["cero","uno","dos","tres","cuatro","cinco",
+         "seis","siete","ocho","nueve","diez"]
+
+# Verificar rango
+if 0 <= nota <= 10:
+    print("La nota es:", notas[nota])
+else:
+    print("Nota inválida")
