@@ -1,0 +1,16 @@
+# Cantidad de llantas
+cantidad = int(input("Ingrese la cantidad de llantas: "))
+
+# Determinar precio según cantidad
+if cantidad < 5:
+    precio = 30000
+elif cantidad <= 10:
+    precio = 25000
+else:
+    precio = 20000
+
+# Calcular total
+total = cantidad * precio
+
+print("Precio por llanta:", precio)
+print("Total a pagar:", total)
