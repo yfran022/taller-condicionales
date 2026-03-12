@@ -1,0 +1,10 @@
+compra = float(input("Ingrese el valor de la compra: "))
+
+# Aplicar descuento si supera 300000
+if compra > 300000:
+    descuento = compra * 0.20
+    total = compra - descuento
+else:
+    total = compra
+
+print("Total a pagar:", total)
