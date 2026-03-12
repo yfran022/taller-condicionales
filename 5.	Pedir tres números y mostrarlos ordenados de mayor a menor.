@@ -1,0 +1,10 @@
+# Solicitar tres números
+n1 = float(input("Ingrese el primer número: "))
+n2 = float(input("Ingrese el segundo número: "))
+n3 = float(input("Ingrese el tercer número: "))
+
+# Ordenar usando una lista
+numeros = [n1, n2, n3]
+numeros.sort(reverse=True)
+
+print("Números ordenados de mayor a menor:", numeros)
